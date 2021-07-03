@@ -1,5 +1,6 @@
 export KISS_PATH=''
 
+KISS_PATH=$KISS_PATH:$HOME/repos/my-repo
 KISS_PATH=$KISS_PATH:$HOME/repos/repo/core
 KISS_PATH=$KISS_PATH:$HOME/repos/repo/extra
 KISS_PATH=$KISS_PATH:$HOME/repos/repo/xorg
@@ -19,3 +20,6 @@ export PS1="\\$ [\w] "
 export MOZ_X11_EGL=1
 export MOZ_ACCELERATED=1
 export MOZ_WEBRENDER=1
+
+export MICRO_TRUECOLOR=1
+export COLORTERM="truecolor"
