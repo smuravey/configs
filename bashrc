@@ -6,7 +6,7 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
-alias pu='doas pacman -Syu'
-alias pi='doas pacman -S $1'
-alias pr='doas pacman -Rscun $1'
+alias pu='sudo pacman -Syu'
+alias pi='sudo pacman -S $1'
+alias pr='sudo pacman -Rscun $1'
 PS1='\\$ [\w] '
