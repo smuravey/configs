@@ -1,0 +1,8 @@
+@import "firefox-gnome-theme/userContent.css";
+.title span {
+  font-size: 12px;
+}
+#preferences-stack {
+  font-size: 12px;
+}
+
